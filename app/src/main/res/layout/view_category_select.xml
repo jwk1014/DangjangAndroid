@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ListView
+        android:id="@+id/categorySelectListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category_select_layout"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:numColumns="1"/>
+    <LinearLayout
+        android:id="@+id/category_select_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorEdgeLine"
+        android:paddingBottom="1dp">
+        <com.dangjang.dj2015.categoryselect.CategorySelectParentView
+            android:id="@+id/categorySelectLeft"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_marginRight="1dp"/>
+        <com.dangjang.dj2015.categoryselect.CategorySelectParentView
+            android:id="@+id/categorySelectRight"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

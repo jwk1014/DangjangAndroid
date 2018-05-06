@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".productlist.ProductListFragment">
+    <ListView
+        android:id="@+id/f_productlist_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" />
+    <TextView
+        android:id="@+id/f_productlist_textview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:text="검색결과가 없습니다."/>
+    <!--<LinearLayout-->
+        <!--android:id="@+id/f_productlist_toplayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:visibility="visible"-->
+        <!--android:orientation="horizontal">-->
+    <!--</LinearLayout>-->
+</FrameLayout>

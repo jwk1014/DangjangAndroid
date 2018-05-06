@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:background="#FFFFFF">
+    <TextView
+        android:id="@+id/category_parent_title_textview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="이름"/>
+    <TextView
+        android:id="@+id/category_parent_select_textview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:maxWidth="100dp"
+        android:singleLine="true"
+        android:layout_alignLeft="@+id/category_parent_title_textview_id"
+        android:layout_below="@+id/category_parent_title_textview_id"
+        android:textSize="15sp"
+        android:text="선택값"
+        />
+    <ImageView
+        android:id="@+id/category_parent_dropdown_imageview_id"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/downarrow"/>
+</RelativeLayout>

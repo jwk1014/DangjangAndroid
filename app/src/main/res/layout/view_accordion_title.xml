@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorEdgeLine"
+    android:layout_marginBottom="6dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp">
+        <TextView
+            android:id="@+id/view_accodiontitle_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:id="@+id/view_accodiontitle_date_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/view_accodiontitle_indicate_textview"
+            android:layout_marginRight="5dp"
+            />
+        <ImageView
+            android:id="@+id/view_accodiontitle_indicate_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/downarrow"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+</FrameLayout>

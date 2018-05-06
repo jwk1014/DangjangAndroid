@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    <item android:id="@+id/menu_main_fragment_item1"
+        android:title="@string/search"
+        android:orderInCategory="100"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionLayout="@layout/menu_main_fragment_layout"/>
+        //app:actionViewClass="android.support.v7.widget.SearchView"/>
+        -->
+    <item android:id="@+id/menu_main_fragment_item2"
+        android:title="cartfragment_title"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/cart" />
+</menu>

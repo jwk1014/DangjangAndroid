@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/v_cartlistitem_bottom_deliverycost_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:text="배달비 : "
+            android:layout_marginLeft="6dp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/v_cartlistitem_bottom_productsumprice_textview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="xxxx 원"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFD6281E"/>
+        <ImageView
+            android:id="@+id/v_cartlistitem_bottom_productdelete_imageview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/garbagecan_big"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/v_cartlistitem_bottom_deliveryrequest_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="배달 요청"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

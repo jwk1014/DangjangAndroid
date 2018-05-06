@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorEdgeLine">
+    <LinearLayout
+        android:id="@+id/v_addresssearch_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="1dp"
+        android:focusable="true"
+        android:clickable="true">
+        <ImageView
+            android:id="@+id/v_addresssearch_marker_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/locationmark_g"/>
+        <TextView
+            android:id="@+id/v_addresssearch_addresstext_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/v_addresssearch_delete_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_gravity="end"
+        android:src="@drawable/delete_x"/>
+</FrameLayout>

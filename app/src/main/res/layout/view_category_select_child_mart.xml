@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorEdgeLine">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:background="#FFFFFF">
+        <TextView
+            android:id="@+id/category_select_child_mart_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="16dp"
+            android:textSize="16sp"
+            android:text="@string/mart_name"/>
+        <ImageView
+            android:id="@+id/category_select_child_mart_info_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:src="@drawable/martinfor_g"/>
+    </RelativeLayout>
+</LinearLayout>

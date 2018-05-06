@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".productdetail.MartDetailActivity"
+    android:id="@+id/a_productdetail_main_layout">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/f_productdetail2_product_imageview"
+                    android:layout_width="match_parent"
+                    android:layout_height="302dp"
+                    android:background="@android:color/white"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="98dp"
+                    android:background="@android:color/white"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="16dp">
+                    <TextView
+                        android:id="@+id/f_productdetail2_productname_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/f_productdetail2_beforeprice_textview"
+                        android:layout_alignParentLeft="true"/>
+                    <TextView
+                        android:id="@+id/f_productdetail2_saleinfo_imageview"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/f_productdetail2_beforeprice_textview"
+                        android:layout_alignRight="@+id/f_productdetail2_beforeprice_textview"
+                        android:layout_above="@+id/f_productdetail2_beforeprice_textview"
+                        android:background="@drawable/discountbox"
+                        android:gravity="center"
+                        android:textColor="@android:color/white"
+                        android:text="10%OFF"/>
+                    <TextView
+                        android:id="@+id/f_productdetail2_beforeprice_textview"
+                        android:layout_width="75dp"
+                        android:layout_height="20dp"
+                        android:layout_toLeftOf="@+id/f_productdetail2_price_textview"
+                        android:layout_above="@+id/f_productdetail2_price_textview"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical|right"
+                        android:visibility="invisible"
+                        android:text="0원"/>
+                    <ImageView
+                        android:id="@+id/f_productdetail2_beforeprice_imageview"
+                        android:layout_width="75dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/f_productdetail2_beforeprice_textview"
+                        android:layout_alignRight="@+id/f_productdetail2_beforeprice_textview"
+                        android:layout_alignTop="@+id/f_productdetail2_beforeprice_textview"
+                        android:layout_alignBottom="@+id/f_productdetail2_beforeprice_textview"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/discountarrow"/>
+                    <TextView
+                        android:id="@+id/f_productdetail2_price_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_margin="6dp"
+                        android:gravity="center_vertical"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="0원"/>
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="98dp"
+                    android:background="@android:color/white"
+                    android:layout_marginTop="2dp"
+                    android:paddingLeft="16dp">
+                    <ImageButton
+                        android:id="@+id/f_productdetail2_countdown_imagebutton"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@null"
+                        android:src="@drawable/minus"/>
+                    <EditText
+                        android:id="@+id/f_productdetail2_count_edittext"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:inputType="numberSigned"
+                        android:gravity="center"/>
+                    <ImageButton
+                        android:id="@+id/f_productdetail2_countup_imagebutton"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@null"
+                        android:src="@drawable/plus"/>
+                    <TextView
+                        android:id="@+id/f_productdetail2_final_price_textview"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical|right"
+                        android:layout_marginRight="6dp"
+                        android:text="0원"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFD6281E"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp">
+                    <TextView
+                        android:id="@+id/f_productdetail2_productinfochange_textview"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginRight="2dp"
+                        android:paddingLeft="16dp"
+                        android:text="정보 수정 요청"
+                        android:gravity="center"
+                        android:background="@android:color/white"/>
+                    <TextView
+                        android:id="@+id/f_productdetail2_productpricechange_textview"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:paddingLeft="16dp"
+                        android:text="가격 변동"
+                        android:gravity="center"
+                        android:background="@android:color/white"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="6dp"
+                    android:paddingLeft="16dp"
+                    android:gravity="center_vertical"
+                    android:text="상품 상세 정보"
+                    android:background="@android:color/white"/>
+                <ImageView
+                    android:id="@+id/f_productdetail2_productinfodetail_imageview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/unloadedimage"
+                    android:scaleType="fitCenter"/>
+            </LinearLayout>
+        </ScrollView>
+        <TextView
+            android:id="@+id/f_productdetail2_put_textview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="장바구니에 담기"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

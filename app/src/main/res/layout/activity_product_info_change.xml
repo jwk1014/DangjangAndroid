@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context=".productdetail.ProductInfoChangeActivity"
+    android:id="@+id/a_productinfochange_main_layout">
+
+    <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+            android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary" app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorEdgeLine"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp">
+                <TextView
+                    android:id="@+id/a_productinfochange_martname_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/martnamesmallbox"/>
+                <TextView
+                    android:id="@+id/a_productinfochange_productname_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="center_vertical|left"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cause"/>
+            <com.dangjang.dj2015.productdetail.CustomCheckGroupLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <com.dangjang.dj2015.productdetail.CustomCheckBox
+                    android:id="@+id/a_productinfochange_checkbox1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:text="@string/cause_1"/>
+                <com.dangjang.dj2015.productdetail.CustomCheckBox
+                    android:id="@+id/a_productinfochange_checkbox2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:text="@string/cause_2"/>
+                <com.dangjang.dj2015.productdetail.CustomCheckBox
+                    android:id="@+id/a_productinfochange_checkbox3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:text="@string/cause_3"/>
+                <com.dangjang.dj2015.productdetail.CustomCheckBox
+                    android:id="@+id/a_productinfochange_checkbox4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:text="@string/cause_4"/>
+                <com.dangjang.dj2015.productdetail.CustomCheckBox
+                    android:id="@+id/a_productinfochange_checkbox5"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:text="@string/cause_5"/>
+                <com.dangjang.dj2015.productdetail.CustomCheckBox
+                    android:id="@+id/a_productinfochange_checkbox6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:text="@string/cause_6"/>
+                <com.dangjang.dj2015.productdetail.CustomCheckBox
+                    android:id="@+id/a_productinfochange_checkbox7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:text="@string/cause_7"/>
+                <EditText
+                    android:id="@+id/a_productinfochange_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:gravity="start|top"
+                    android:background="@drawable/roundedbox_grey"/>
+            </com.dangjang.dj2015.productdetail.CustomCheckGroupLinearLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_marginTop="6dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/activity_product_info_change_comment"/>
+            <Button
+                android:id="@+id/a_productinfochange_submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:layout_gravity="bottom"
+                android:text="@string/activity_product_info_change_submit"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+        </FrameLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

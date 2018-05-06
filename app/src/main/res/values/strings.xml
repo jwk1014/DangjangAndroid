@@ -1,0 +1,377 @@
+<resources>
+    <string name="app_name">당일 장보기</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_address_search">AddressSearchActivity</string>
+
+    <string name="locale_code">KR</string>
+    <string name="monetary_unit">원</string>
+    <string name="count_unit">회</string>
+    <string name="ok">확인</string>
+    <string name="amount">수량</string>
+    <string name="cartfragment_title">장바구니</string>
+    <string name="orderactivity_title">배달 요청</string>
+    <string name="orderhistoryfragment_title">이전 주문 내역</string>
+    <string name="authorizationdialogfragment_title">휴대폰 번호 인증</string>
+    <string name="authorization_number_empty">인증번호를 입력해주세요.</string>
+    <string name="authorization_dismatch">입력값이 틀립니다.</string>
+    <string name="authorization_remain_count">남은 인증 횟수</string>
+    <string name="authorization_success">휴대폰 번호가 인증되었습니다.</string>
+    <string name="passwordfinddialogfragment_title">비밀번호 재설정</string>
+    <string name="name_empty">이름을 입력해주세요.</string>
+    <string name="email_empty">이메일을 입력해주세요.</string>
+    <string name="passwordfind_success">비밀번호 재설정 메일이 전송되었습니다.</string>
+    <string name="joinfragment_korean_error">올바른 한글 이름을 입력하세요.</string>
+    <string name="joinfragment_form_error">형식에 맞지 않습니다.</string>
+    <string name="joinfragment_password_error">영문+숫자 8~20자로 입력하세요.</string>
+    <string name="joinfragment_password_input_message">영문,숫자조합으로 8~20자 이내로 입력하세요.</string>
+    <string name="address_search_activity_result_ok">주소가 설정되었습니다.</string>
+    <string name="joinfragment_terms_check">약관에 동의하셔야 합니다.</string>
+    <string name="joinfragment_name_check">이름 입력 값을 확인하여 주십시오.</string>
+    <string name="joinfragment_email_check">이메일 입력 값을 확인하여 주십시오.</string>
+    <string name="joinfragment_phonenumber_check">휴대폰 번호 입력 값을 확인하여 주십시오.</string>
+    <string name="joinfragment_phone_authorization_check">휴대폰 번호 인증을 받으셔야 합니다.</string>
+    <string name="joinfragment_password_check">비밀번호 입력 값을 확인하여 주십시오.</string>
+    <string name="accountinfofragment_title">계정</string>
+    <string name="noticefragment_title">공지 사항</string>
+    <string name="passwordchangeactivity_title">비밀번호 변경</string>
+    <string name="termsfragment_title">약관 보기</string>
+    <string name="tmap_api_key">52d5ad22-8316-3bf2-ad0b-854d6855bcee</string>
+    <string name="productinfochangeactivity_title">정보 수정 요청</string>
+    <string name="chart_description">단위 : 원</string>
+    <string name="chart_data1_name">기본가격</string>
+    <string name="chart_data2_name">카드적용</string>
+    <string name="exit_message">한번 더 누르시면 앱이 종료됩니다.</string>
+    <string name="supportfragment_title">고객 센터</string>
+    <string name="supportmartpartnershipactivity_title">마트 제휴 문의</string>
+    <string name="supportoneononeactivity_title">1:1 문의하기</string>
+    <string name="position">위치</string>
+    <string name="activity_mart_detail_time">영업시간</string>
+    <string name="activity_mart_detail_restdays">휴무일</string>
+    <string name="activity_mart_detail_phonenumber">전화번호</string>
+    <string name="activity_mart_detail_deliveryarea">배달지역</string>
+    <string name="name">성명</string>
+    <string name="name_input">성명 입력</string>
+    <string name="name_input_message">이름을 입력하세요.</string>
+    <string name="address">주소</string>
+    <string name="address_search_message">주소를 검색하세요.</string>
+    <string name="address_search">주소 검색</string>
+    <string name="other_address_message">나머지 주소를 입력하세요.</string>
+    <string name="receive_phone">연락처</string>
+    <string name="activity_order_phone_hint">받는 사람 연락처</string>
+    <string name="goods_receive">물품 수령</string>
+    <string name="goods_receive_home">집으로 배달</string>
+    <string name="goods_receive_mart">마트에서 수령</string>
+    <string name="sold_out_goods">품절 상품</string>
+    <string name="sold_out_option_another">비슷한 가격\n타 상품 구입</string>
+    <string name="sold_out_option_pass">품절 상품\n구입 안함</string>
+    <string name="sold_out_option_call">전화 요청</string>
+    <string name="request">요청 사항</string>
+    <string name="request_example_message">예) 배달 출발 전 전화주세요.</string>
+    <string name="payment_option">결제 방법</string>
+    <string name="payment_option_card">카드</string>
+    <string name="payment_option_money">현금</string>
+    <string name="payment_option_cash_receipt">현금 영수증</string>
+    <string name="pointcard_info">포인트\n카드 정보</string>
+    <string name="pointcard_message">없으면 비워두세요.</string>
+    <string name="order">주문</string>
+    <string name="email">E-mail</string>
+    <string name="current_password">현재\n비밀번호</string>
+    <string name="change_password">변경할\n비밀번호</string>
+    <string name="change_password_confirm">변경할\n비밀번호 확인</string>
+    <string name="password_input">비밀번호 입력</string>
+    <string name="password_confirm_input">비밀번호 확인</string>
+    <string name="password_change_input">변경할 비밀번호</string>
+    <string name="password_change_confirm_input">변경할 비밀번호 확인</string>
+    <string name="password_change">비밀번호 변경</string>
+    <string name="cause">사유</string>
+    <string name="cause_1">상품이 마트에 없어요</string>
+    <string name="cause_2">배달되지 않는 상품이에요</string>
+    <string name="cause_3">상품이 할인되지 않아요</string>
+    <string name="cause_4">상품의 이름이 달라요</string>
+    <string name="cause_5">상품의 가격이 달라요</string>
+    <string name="cause_6">상품의 단위가 달라요</string>
+    <string name="cause_7">기타</string>
+    <string name="activity_product_info_change_comment">위의 빈칸을 작성하여 제출하여 주시면 검토 후\n상품 정보에 반영하겠습니다. 감사합니다.</string>
+    <string name="activity_product_info_change_submit">정보 수정 요청 제출</string>
+    <string name="mart_name">마트명</string>
+    <string name="person_in_charge">담당자</string>
+    <string name="activity_support_mart_partnership_comment">위의 빈칸을 작성하여 제출하여 주시면 브로콜리카트의 매니저가 연락 후\n직접 방문하여 마트 제휴 내용을 설명하여 드립니다. 감사합니다.</string>
+    <string name="activity_support_mart_partnership_submit">마트 제휴 문의 신청</string>
+    <string name="ask_content">문의 내용</string>
+    <string name="activity_support_oneonone_ask_comment">위의 빈칸을 작성하여 제출하여 주시면 검토 후 답변 드리겠습니다.\n감사합니다.</string>
+    <string name="activity_support_oneonone_ask_submit">문의 내용 제출</string>
+    <string name="email_address_input">이메일 입력</string>
+    <string name="email_address_example">ex) abc@xxx.com</string>
+    <string name="phone_input">전화번호 입력</string>
+    <string name="phone_example">ex) 01012341234</string>
+    <string name="password">비밀번호</string>
+    <string name="info_modify_update">정보수정 업데이트</string>
+    <string name="logout">로그 아웃</string>
+    <string name="service_leave">서비스 탈퇴</string>
+    <string name="fragment_authorization_dialog_comment">입력하신 휴대폰 번호로\n인증번호문자가 발송되었습니다.\n인증번호문자를 확인 후 입력해주세요.</string>
+    <string name="authorization_number_input">인증 번호 입력</string>
+    <string name="do_authorization">인증 하기</string>
+    <string name="start_authorization">인증 받기</string>
+    <string name="terms_agree">약관 동의</string>
+    <string name="terms_see">약관보기</string>
+    <string name="join_and_login">회원가입 및 로그인</string>
+    <string name="already_member">이미 회원이신가요?</string>
+    <string name="login">로그인</string>
+    <string name="yet_member">아직 회원이 아니신가요?</string>
+    <string name="join">회원가입</string>
+    <string name="password_find">비밀번호 찾기</string>
+    <string name="fragment_password_find_dialog_comment">계정의 비밀번호 재설정 메일을 받으시려면\n아래 항목을 입력해주세요.</string>
+    <string name="fragment_password_find_fialog_submit">비밀번호 재설정 메일 전송</string>
+    <string name="mart_info">마트정보</string>
+    <string name="price_change">가격변동확인</string>
+    <string name="info_modify_request">정보수정요청</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="put">담기</string>
+    <string name="include_bottom_first_layout_comment">당장은 통신판매중개자이며 통신판매의 당사자가 아닙니다.\n따라서 당장은 상품 거래 정보 및 거래에 대하여 책임을 지지 않습니다.</string>
+    <string name="delivery_time">배달 시간</string>
+    <string name="goods_see">상품 보기</string>
+    <string name="search">검색</string>
+
+    <string-array name="top">
+        <item>특가상품</item>
+        <item>인기상품</item>
+        <item>농산품</item>
+        <item>축산품</item>
+        <item>수산품</item>
+        <item>가공식품</item>
+        <item>냉장/냉동/간편/반찬</item>
+        <item>유아</item>
+        <item>생활</item>
+        <item>애완동물</item>
+    </string-array>
+
+    <string-array name="special_popular">
+        <item>농산품</item>
+        <item>축산품</item>
+        <item>수산품</item>
+        <item>가공식품</item>
+        <item>냉장/냉동/간편/반찬</item>
+        <item>유아</item>
+        <item>생활</item>
+        <item>애완동물</item>
+    </string-array>
+
+    <string-array name="agricultural">
+        <item>채소</item>
+        <item>과일</item>
+        <item>쌀</item>
+        <item>잡곡</item>
+        <item>두부</item>
+        <item>건(견)과류</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="livestock_production">
+        <item>한우/소고기</item>
+        <item>돼지고기</item>
+        <item>닭/오리고기</item>
+        <item>계란류</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="aquatic_product">
+        <item>생선</item>
+        <item>해물</item>
+        <item>생선회</item>
+        <item>건어물</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="processed_food">
+        <item>생수/우유/두유</item>
+        <item>유제품</item>
+        <item>커피/차</item>
+        <item>요리분말</item>
+        <item>조미료/소스</item>
+        <item>식용류/장류</item>
+        <item>면류</item>
+        <item>통조림</item>
+        <item>과자/시리얼</item>
+        <item>음료</item>
+        <item>건강식품</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="refrigeration_freeze_simple_side">
+        <item>냉장식품(햄/어묵)</item>
+        <item>냉동식품(만두/피자)</item>
+        <item>즉석식품</item>
+        <item>햇반</item>
+        <item>김치</item>
+        <item>베이커리/쨈</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="baby">
+        <item>분유/유아식</item>
+        <item>기저귀/물티슈</item>
+        <item>유아위생용품</item>
+        <item>임부용품</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="life">
+        <item>생활용품</item>
+        <item>샤워용품</item>
+        <item>욕실용품</item>
+        <item>주방용품</item>
+        <item>일회용품</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="pet">
+        <item>개</item>
+        <item>고양이</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="product_sort">
+        <item>상품 인기순</item>
+        <item>높은 할인율순</item>
+        <item>낮은 가격순</item>
+        <item>높은 가격순</item>
+    </string-array>
+
+    <string-array name="example_time">
+        <item>오전 10:00 ~ 오후 12:00</item>
+        <item>오후 12:00 ~ 오후 02:00</item>
+        <item>오후 02:00 ~ 오후 04:00</item>
+        <item>오후 04:00 ~ 오후 06:00</item>
+    </string-array>
+
+    <string name="terms1">
+<![CDATA[
+<b>제 1조 (목적)</b><br/>
+이 약관은 브로콜리카트(이하 “회사”라 합니다)가 제공하는 “당장” 인터넷 장보기 사이트(http://www.dangjang.co.kr, 이하 “당장”라고 합니다)와 스마트폰 등 이동통신기기를 통해 제공되는 “당장” 모바일 어플리케이션(이하 “당장”이라고 합니다)을 통하여 제공하는 중개서비스 및 기타 정보서비스(이하 “서비스”라고 합니다)와 관련하여, 회사와 이용고객(또는 회원)간에 서비스의 이용 조건 및 절차, 회사와 회원간의 권리, 의무 및 기타 필요한 사항을 규정함을 목적으로 합니다.<br/>
+<br/>
+<b>제 2조 (용어의 정의)</b><br/>
+1) “회원”이라 함은 “당장”에 개인정보를 제공하여 회원등록을 한 자로서, “당장”의 정보를 지속적으로 제공받으며, “당장”이 제공하는 서비스를 계속적으로 이용할 수 있는 자를 의미합니다.<br/>
+2) “아이디(ID)”라 함은 회원의 식별 및 서비스 이용을 위하여 회원이 선정하고 회사가 승인한 E-mail의 주소를 말합니다.<br/>
+3) “비밀번호(Password)”라 함은 회원의 동일성 확인과 회원의 권익 및 비밀보호를 위하여 회원 스스로가 설정하여 회사에 등록한 영문과 숫자의 조합을 말합니다.<br/>
+4) “단말기”라 함은 서비스에 접속하기 위하여 회원이 이용하는 컴퓨터, PDA, 태블릿PC 등의 전산장치를 말합니다.<br/>
+5) “탈퇴”라 함은 회원이 서비스 이용을 해지하는 것을 말합니다.<br/>
+6) 이 약관에서 사용하는 용어 중 제 2조 각 항에서 정하지 아니한 것은 관계 법령 및 서비스별 안내에서 정하는 바에 따르며, 그 외에는 일반 관례에 따릅니다.<br/>
+<br/>
+<b>제 3조 (약관의 명시와 설명 및 개정)</b><br/>
+1) “당장”은 본 약관의 내용과 상호, 영업소 소재지 주소, 대표자의 성명, 사업자등록번호, 연락처, 통신판매중개업신고번호, 개인정보관리책임자 등을 이용자가 알 수 있도록 “당장”의 초기 서비스화면에 게시합니다. 다만, 약관의 내용은 이용자가 연결화면을 통하여 볼 수 있도록 합니다.<br/>
+2) 회사는 합리적인 사유가 발생할 경우 관련 법령에 위배되지 않는 범위 내에서 약관을 개정할 수 있습니다. 개정된 약관은 홈페이지를 통해 공지함으로써 효력을 발휘합니다.<br/>
+3) 회원은 정기적으로 홈페이지를 방문하여 약관의 변경사항을 확인하여야 합니다. 변경된 약관에 대한 정보를 알지 못해 발생하는 회원의 피해는 회사에서 책임지지 않습니다.<br/>
+4) 회원은 변경된 약관에 동의하지 않을 경우 회원 탈퇴를 요청할 수 있습니다.<br/>
+<br/>
+<b>제 4조 (약관 외 준칙)</b><br/>
+회사는 필요한 경우 기타 유무료 서비스 내의 운영원칙 또는 개별약관(이하 “서비스별 야관”이라 합니다)를 정할 수 있으며, 본 약관과 서비스별 약관의 내용이 상충되는 경우에는 서비스별 약관의 내용을 우선하여 적용합니다.<br/>
+<br/>
+<b>제 5조 (회원 가입)</b><br/>
+1) 이 약관의 동의는 회원가입 당시 절차 상의 ‘약관 동의’ 체크를 함으로써 의사표시를 합니다.<br/>
+2) 회원으로 가입하여 서비스를 이용하고자 하는 이용자는 회사에서 요청하는 제반 정보(이용자ID, 비밀번호, 연락처 등)를 제공하여야 합니다.<br/>
+3) 회원은 반드시 회원 본인의 정보를 제공하여야만 서비스를 이용할 수 있으며, 타인의 정보를 도용하거나 허위의 정보를 등록하는 등 본인의 정확한 정보를 등록하지 않은 회원은 서비스 이용과 관련하여 아무런 권리를 주장할 수 없으며, 관계 법령에 따라 처벌 받을 수 있습니다.<br/>
+<br/>
+<b>제 6조 (개인정보의 보호 및 사용)</b><br/>
+1) 회사는 관계 법령이 정하는 바에 따라 회원의 개인정보를 보호하기 위해 노력합니다. 개인정보의 보호 및 사용에 관해서는 관계 법령 및 회사의 개인정보 취급방침에 정한 바에 의합니다. 단, 회원은 비밀번호 등이 타인에게 노출되지 않도록 철저히 관리해야 하며 회사는 회원의 귀책사유로 인해 노출된 정보에 대해서 책임을 지지 않습니다.<br/>
+<br/>
+<b>제 7조 (회원에 대한 통지 및 정보제공)</b><br/>
+1) 회사가 회원에 대하여 통지하는 경우, 회원이 회사에 등록한 E-mail의 주소나, 휴대전화번호로 할 수 있습니다.<br/>
+2) 회사는 불특정다수 회원에게 통지를 해야 할 경우 공지게시판을 통해 게시함으로써 개별 통지에 갈음할 수 있습니다.<br/>
+3) 회사는 회원에게 서비스 이용에 필요가 있다고 인정되는 각종 정보에 대해서 E-mail이나 SMS, 전화 등의 방법으로 회원에게 제공할 수 있습니다.<br/>
+4) 회사는 서비스 개선 및 회원 대상의 서비스 소개 등의 목적으로 회원의 동의 하에 관련 법령에 따라 추가적인 개인 정보를 수집할 수 있습니다.<br/>
+<br/>
+<b>제 8조 (서비스 이용 시간 및 중단)</b><br/>
+1) 서비스 이용은 회사의 업무상 또는 기술상 특별한 지장이 없는 한 연중무휴, 1일 24시간 운영을 원칙으로 합니다. 단, 회사는 시스텝 정기점검, 증설 및 교체를 위해 회사가 정한 날이나 시간에 서비스를 일시 중단할 수 있으며, 예정되어 있는 작업으로 인한 서비스 일시 중단은 홈페이지를 통하여 공지합니다.<br/>
+2) 회사는 긴급한 시스템 점검, 증설 및 교체, 설비의 장애, 서비스 이용의 폭주, 국가비상사태, 정전 등 부득이한 사유가 발생한 경우 사전 예고 없이 일시적으로 서비스의 전부 또는 일부를 중단할 수 있습니다.<br/>
+3) 회사는 서비스 개편 등 서비스 운영상 필요한 경우 전부 또는 일부 서비스의 제공을 중단할 수 있으며 회원에게 사전 예고 또는 사후 통보 합니다.<br/>
+<br/>
+<b>제 9조 (회사의 의무)</b><br/>
+1) 회사는 본 약관이 정하는 바에 따라 지속적이고 안정적인 서비시스를 제공하기 위해서 노력합니다.<br/>
+2) 회사는 회원의 개인정보 보호를 위해 보안 시스템을 구축하며 개인정보 취급방침을 공시하고 준수합니다.<br/>
+3) 회사는 공정하고 건전한 운영을 위해 최선을 다하고 지속적인 연구개발을 통하여 양질의 서비스를 제공함으로써 고객만족을 극대화하여 인터넷 사업 발전에 기여합니다.<br/>
+4) 회사는 회원으로부터 제기되는 의견이나 불편사항이 정당하다고 객관적으로 인정될 경우네는 적절한 절차를 통해 즉시 처리하여야 합니다. 다만, 신속한 처리가 곤란한 경우에는 회원에게 그 사유와 처리 일정을 통보하여야 합니다.<br/>
+<br/>
+<b>제 10조 (회원의 의무)</b><br/>
+1) 회원은 회원가입 신청 또는 회원정보 변경 시 모든 사항을 사실에 근거하여 본인의 실제 정보로 작성하여야 하며, 허위 또는 타인의 정보를 등록할 경우 이와 관련된 모든 권리를 주장할 수 없습니다.<br/>
+2) 회원은 본 약관에서 규정하는 사항과 기타 회사가 정한 제반 규정, 공지 사항 등 회사가 공지하는 사항 및 관계 법령을 준수하여야 하며, 기타 회사의 업무에 방해가 되는 행위, 회사의 명예를 손상시키는 행위, 타인에게 피해를 주는 행위를 해서는 안됩니다.<br/>
+3) 회원은 주소, 연락처, 전자우편 주소 등 이용정보가 변경된 경우에 해당 절차를 거쳐 이를 회사에 즉시 알려야 합니다.<br/>
+4) 회원은 이용자ID, 비밀번호 등이 타인에게 노출되지 않도록 철저한 관리 책임이 있습니다.<br/>
+<br/>
+<b>제 11조 (회원 탈퇴 및 자격 상실)</b><br/>
+1) 회원은 회사에 언제든지 회원 탈퇴를 요청할 수 있으며 회사는 요청을 받은 즉시 해당 회원의 회원 탈퇴를 위한 절차를 밟아 회사 개인정보취급방침에 따라 회원 등록을 말소합니다.<br/>
+2) 회사의 모든 서비스에서 이용중인 서비스의 기간이 남아있는 회원이 탈퇴 요청하였을 경우 회원탈퇴로 인한 서비스의 중지 또는 피해는 회원 탈퇴 이용자에게 있습니다.<br/>
+3) 회원이 서비스 이용에 있어서 본 양관 제 10조 내용을 위반하거나, 다음 각 호의 사유에 해당하는 경우 회사는 직권으로 회원자격 상실 및 회원탈퇴의 조치를 할 수 있습니다.<br/>
+ ① 다른 사람의 명의를 사용하여 가입 신청한 경우<br/>
+ ② 신청 시 필수 작성 사항을 허위로 기재한 경우<br/>
+ ③ 관계 법령의 위반을 목적으로 신청하거나 그러한 행위를 하는 경우<br/>
+ ④ 사회의 안녕, 질서 또는 미풍양속을 저해할 목적으로 신청하거나 그러한 행위를 하는 경우<br/>
+ ⑤ 다른 사람의 회사 서비스 이용을 방해하거나 그 정보를 도용하는 등 전자거래질서를 위협하는 경우<br/>
+ ⑥ 관계 법령 위배와 본 약관이 금지하는 행위를 하는 회원의 경우<br/>
+4) 회사가 직권으로 회원 탈퇴 처리를 하고자 하는 경우에는 말소 전 회원에게 소명의 기회를 부여합니다.<br/>
+<br/>
+<b>제 12조 (손해배상)</b><br/>
+1) 회사는 서비스에서 무료로 제공하는 서비스의 이용과 관련하여 개인정보보호정책에서 정하는 내용에 해당하지 않는 사항에 대하여 어떠한 손해도 책임을 지지 않습니다.<br/>
+<br/>
+<b>제 13조 (면책 조항)</b><br/>
+1) 회사는 천재지변, 전쟁, 기간통신사업자의 서비스 중지 및 기타 이에 준하는 불가항력으로 인하여 서비스를 제공할 수 없는 경우에는 서비스 제공에 대하여 책임지지 않습니다.<br/>
+2) 회사는 서비스용 설비의 보수, 교체,정기점검, 공사 등 부득이한 사유로 발생한 손해에 대한 책임이 면제됩니다.<br/>
+3) 회사는 회원이 서비스에 게재한 정보, 자료, 사실의 정확성, 신뢰성 등그 내용에 관하여는 어떠한 책임을 부담하지 아니하고, 회원은 자기 책임아래 서비스를 이용하며, 서비스를 이용하여 게시 또는 전송한 자료 등에 관하여 손해가 발생하거나 자료의 취사선택, 기타 서비스 이용과 관련하여 어떠한 불이익이 발생하더라도 이에 대한 모든 책임은 회원에게 있습니다.<br/>
+4) 회사가 제공하는 정보와 자료는 거래의 목적으로 이용될 수 없습니다. 따라서 본 서비스의 정보와 자료 등에 근거한 거래는 전적으로 회원자신의 책임과 판단아래 수행되는 것이며, 회사는 회원이 서비스의 이용과 관련하여 기대하는 이익에 관하여 책임을 부담하지 않습니다.<br/>
+5) 회사는 회원이 서비스를 이용하여 기대하는 수익을 얻지 못하거나 상실한 것에 대하여 책임을 지지 않으며, 서비스를 이용하면서 얻은 자료로 인한 손해에 대하여 책임을 지지 않습니다.<br/>
+6) 회사는 회원의 게시물을 등록 전에 사전심사하거나 상시적으로 게시물의 내용을 확인 또는 검토하여야 할 의무가 없으며, 그 결과에 대한 책임을 지지 아니합니다.<br/>
+<br/>
+<b>제 14조 (약관의 해석)</b><br/>
+1) 본 약관에 명시되지 않은 사항은 관계법령과 상관례에 따릅니다.<br/>
+2) 회사의 개별 유무료 서비스 이용 회원의 경우 당해 서비스와 관련하여서는 회사가 별도로 정한 약관 및 정책에 따릅니다.<br/>
+<br/>
+<b>제 15조 (재판관할 및 준거법)</b><br/>
+1) 이 약관에 명시되지 않은 사항은 전기통신사업법 등 대한민국의 관계법령과 상관습에 따릅니다.<br/>
+2) 회사의 정액 서비스 회원 및 기타 유료 서비스 이용 회원의 경우 당해 서비스와 관련하여서는 회사가 별도로 정한 약관 및 정책에 따릅니다.<br/>
+3) 이 약관 및 서비스의 이용과 관련된 분쟁에 관한 소송은 회사의 본사 소재지를 관할하는 법원에 제기합니다.<br/>
+ ]]>
+    </string>
+
+    <string name="terms2">
+<![CDATA[
+<b>수집하는 개인정보의 항목</b><br/>
+회사는 회원서비스를 위하여 이용자들에게 맞춤식 서비스를 비롯한 보다 더 향상된 양질의 서비스를 제공하기 위하여 이용자 개인의 정보를 수집하고 있습니다.<br>
+<br>
+1) 필수항목<br>
+- E-mail 주소, 비밀번호, 핸드폰 번호 : 회원제 서비스 이용에 따른 본인 확인 절차에 이용<br>
+- E-mail 주소, 핸드폰 번호, 주소 : 고지사항 전달, 불만처리 등을 위한 원활한 의사 소통 경로의 확보, 새로운 서비스 및 신상품이나 이벤트 정보 등의 안내<br>
+- IP Address : 불량회원의 부정 이용 방지와 비인가 사용 방지<br>
+<br>
+2) 선택항목<br>
+- 개인맞춤 서비스를 제공하기 위하여 회사가 필요로 하는 정보<br>
+<br>
+<b>개인정보의 수집 및 이용목적</b><br>
+1) 신규 서비스의 개발<br>
+회사는 이용자들이 제공한 개인정보를 바탕으로 보다 더 유용한 서비스를 개발할 수 있습니다.<br>
+신규 서비스 개발이나 콘텐츠의 확충 시에 기존 이용자들이 회사에 제공한 개인정보를 바탕으로 개발해야 할 서비스의 우선 순위를 효율적으로 정하여, 회사는 이용자들이 필요로 할 서비스 및 콘텐츠를 합리적으로 제공할 수 있습니다.<br>
+2) 회원관리<br>
+회원제 서비스 이용에 따른 본인확인, 개인식별, 불량회원의 부정이용방지와 비인가사용방지, 가입의사확인, 연령확인, 만14세 미만 아동 개인정보 수집 시 법정 대리인 동의여부 확인, 불만처리 등 민원처리, 공지사항 전달\n
+3) 마케팅 및 광고에 활용<br>
+신규 서비스 개발과 이벤트 행사에 따른 정보 전달 및 맞춤 서비스 제공, 통계학적 특성에 따른 서비스 제공 및 광고 게재, 접속빈도 파악 또는 회원의 서비스 이용에 대한 통계<br>
+<br>
+<b>개인정보의 보유 및 이용기간</b><br>
+회사는 이용자의 개인정보를 원칙적으로 개인정보의 수집 및 이용목적이 달성되면 지체없이 파기합니다. 단, 다음의 정보에 대해서는 아래의 이유로 명시한 기간 동안 보존합니다.<br>
+<br>
+1) 회사의 내부방침에 의한 정보보유 사유<br>
+- 보존이유 : 불량이용자의 재가입방지 및 명예훼손 등 권리침해 분쟁 및 수사협조<br>
+- 보존기간 : 이용해지일로부터 1년<br>
+2) 관련법령에 의한 정보보유 사유<br>
+회사는 상법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우, 관계법령에서 정한 일정한 기간 동안 회원정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.<br>
+- 계약 또는 청약철회 등에 관한 기록 : 5년(전자상거래 등에서의 소비자보호에 관한 법률)<br>
+- 대금결제 및 재화 등의 공급에 관한 기록 : 5년(전자상거래 등에서의 소비자보호에 관한 법률)<br>
+- 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년(전자상거래 등에서의 소비자보호에 관한 법률)<br>
+- 본인확인에 관한 기록 : 6개월(정보통신망 이용촉진 및 정보보호 등에 관한 법률)<br>
+- 방문(로그)에 관한 기록 : 3개월(통신비밀보호법) ]]>
+    </string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.dangjang.dj2015.productlist.AddressDisplayView
+        android:id="@+id/f_productlist_addressdisplayview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.dangjang.dj2015.categoryselect.CategorySelectView
+        android:id="@+id/f_productlist_categoryselectview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"/>
+    <com.dangjang.dj2015.productlist.BackCategoryView
+        android:id="@+id/f_productlist_backcategoryview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"/>
+</LinearLayout>
